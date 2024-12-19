@@ -23,7 +23,7 @@ function getChatGPTResponse($query, $API = null) {
         "ryan" => "https://api.nyxs.pw/ai/gpt4o?system=Jawab%20sebagai%20cowok%20pemalu%20bernama%20Ryan%20yang%20orangnya%20cuek%20dan%20tidak%20banyak%20bicara%20dan%20perduli%20dengan%20teman%20dan%20sedikit%20suka%20memotivasi%20untuk%20taat%20kepada%20agama%20Islam.%20jawab%20dengan%20menggunakan%20kosa%20kata%20yang%20gaul%20dan%20teks%20yang%20singkat%20dan%20berbicara%20yang%20seperlunya%20saja%20dan%20dingin&text=" . urlencode($query),
         "akhiro" => "https://akhiro-rest-api.onrender.com/api/gpt4?q=" . urlencode($query),
         "ngodingaja" => "https://api.ngodingaja.my.id/api/gpt?prompt=" . urlencode($query),
-        "otinxsandip" => "https://sandipbaruwal.onrender.com/gpt?prompt=" . urlencode($query),
+        "otinxsandip" => "https://sandipbaruwal.onrender.com/gpt?prompt=" . urlencode($query)
     ];
 
     if ($API && isset($urls[$API])) {
