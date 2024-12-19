@@ -15,7 +15,7 @@ $data = json_decode(file_get_contents("php://input"));
 
 function getChatGPTResponse($query, $prompt, $API = null) {
     $urls = [
-        "vikaru" => "https://api.nyxs.pw/ai/gpt4o?text=" . urlencode($query)
+        "vikaru" => "https://api.nyxs.pw/ai/gpt4o?text=" . urlencode($query),
     ];
 
     if ($API && isset($urls[$API])) {
