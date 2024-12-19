@@ -117,26 +117,3 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
-
-.particle {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  animation: fall 2s linear infinite;
-}
-
-@keyframes fall {
-  100% {
-    top: 100vh;
-  }
-}
-
-@media (min-height: 500px) {
-    .particle {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-    }
-}
