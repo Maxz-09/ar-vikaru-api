@@ -6,7 +6,8 @@ on:
 permissions: write-all
 jobs:
   deploy:
-    name: Deploy on bohr.io
+    name: Start Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: bohr-io/action@main
